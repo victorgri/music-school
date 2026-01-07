@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Музична анишкола</title>
+  <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="sty;es/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <img src="images/logo.svg" alt="logo" class="header__logo">
+        <div class="header__menu">
+          <a href="#about" class="header__item">про нас</a>
+          <a href="#exp" class="header__item">наші напрямки</a>
+          <a href="#services" class="header__item">сервіси</a>
+          <a href="#testimonials" class="header__item">відгуки</a>
+          <a href="#vision" class="header__item">бачення</a>
+          <a href="#contacts" class="header__item">контакти</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <h1 class="hero__title">Сучасна музична школа</h1>
+          <h2 class="hero__subtitle">Ми допомагаємо дітям і дорослим розкрити музичний потенціал — від першої ноти до
+            впевненого виступу на сцені.</h2>
+          <a href="https://t.me/viktor_frontend" class="button">Записатись на пробне заняття</a>
+        </div>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"></div>
+          <div class="swiper-slide slide-2"></div>
+          <div class="swiper-slide slide-3"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__inner">
+          <h2 class="about__title">
+            Хто ми
+          </h2>
+
+          <p class="about__text">
+            Ми — музична школа, що поєднує класичну освіту з сучасним підходом до навчання.
+            Нам важливо не просто навчити грати, а допомогти учню полюбити музику, відчути впевненість у собі та
+            отримувати задоволення від процесу.
+          </p>
+          <p class="about__text">
+            <b>Ми працюємо з початківцями та з тими, хто хоче вийти на новий рівень.</b>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="exp" class="exp">
+      <div class="container">
+        <div class="exp__inner">
+          <h2 class="exp__title">Наші напрямки навчання</h2>
+          <div class="exp__items">
+            <div class="exp__item">
+              <img src="images/band.jpg" alt="item" class="exp__img">
+              <h3 class="exp__item-title">Інструменти</h3>
+              <p class="exp__item-text">Навчання грі на гітарі, фортепіано та ударних із урахуванням стилю та цілей
+                учня.</p>
+            </div>
+
+            <div class="exp__item">
+              <img src="images/sing.jpg" alt="item" class="exp__img">
+              <h3 class="exp__item-title">Вокал</h3>
+              <p class="exp__item-text">Індивідуальні та групові заняття з вокалу для будь-якого рівня — від постановки
+                голосу до роботи з мікрофоном і сценою.</p>
+            </div>
+
+            <div class="exp__item">
+              <img src="images/notes.jpg" alt="item" class="exp__img">
+              <h3 class="exp__item-title">Музична теорія та практика</h3>
+              <p class="exp__item-text">Розвиток слуху, ритму, розуміння музики та вміння застосовувати знання на
+                практиці.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="features">
+      <div class="container">
+        <div class="features__inner">
+          <div class="features__desc">
+            <h2 class="features__title">Музична школа повного циклу</h2>
+
+            <p class="features__desc-text">
+              Починаєш свій шлях в музиці, або хочеш розвиватися і мати досвід виступів? Тоді ти потрапив в правильне
+              місце для розвитку!
+            </p>
+          </div>
+
+
+          <div class="features__cards">
+            <div class="feature__card feature__card--1">
+              <span class="feature__number">001</span>
+              <h4 class="feature__card-title">Індивідуальні заняття</h4>
+
+              <p class="feature__text">Персональний підхід, програма під ваш рівень та цілі.</p>
+
+              <a class="button feature-btn" href="https://t.me/viktor_frontend">Дізнайся більше</a>
+            </div>
+
+            <div class="feature__card feature__card--2">
+              <span class="feature__number">002</span>
+              <h4 class="feature__card-title">Групові заняття</h4>
+
+              <p class="feature__text">Навчання в невеликих групах для мотивації та взаємного розвитку.
+              </p>
+
+              <a class="button feature-btn" href="https://t.me/viktor_frontend">Дізнайся більше</a>
+            </div>
+
+            <div class="feature__card feature__card--3">
+              <span class="feature__number">003</span>
+              <h4 class="feature__card-title">Підготовка до виступів</h4>
+
+              <p class="feature__text">Звітні концерти в кінці кожного півріччя
+              </p>
+
+              <a class="button feature-btn" href="https://t.me/viktor_frontend">Дізнайся більше</a>
+            </div>
+
+            <div class="feature__card feature__card--4">
+              <span class="feature__number">004</span>
+              <h4 class="feature__card-title">Онлайн-навчання</h4>
+
+              <p class="feature__text">Заняття з будь-якої точки світу у зручному форматі.
+              </p>
+
+              <a class="button feature-btn" href="https://t.me/viktor_frontend">Дізнайся більше</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="testimonials__inner">
+          <h2 class="testimonials__title">Відгуки учнів</h2>
+
+          <div class="testimonials__cards">
+            <div class="testimonial__card">
+              <img src="images/testimonials/yulia.jpg" alt="" class="testimonial__photo">
+              <p class="testimonial__text">Я ніколи не думала, що зможу грати улюблені пісні вже через кілька місяців.
+                </p>
+              <p class="testimonial__autor">Юля</p>
+              <p class="testimonial__instr">
+                БАРАБАНИ
+              </p>
+            </div>
+
+            <div class="testimonial__card">
+              <img src="images/testimonials/julia.jpg" alt="" class="testimonial__photo">
+              <p class="testimonial__text">Навчання дуже подобається. Граю те, що люблю і це великий плюс</p>
+              <p class="testimonial__autor">Макар</p>
+              <p class="testimonial__instr">
+                ГІТАРА
+              </p>
+            </div>
+
+
+            <div class="testimonial__card">
+              <img src="images/testimonials/julia.jpg" alt="" class="testimonial__photo">
+              <p class="testimonial__text">Заняття з вокалу допомогли мені позбутися страху сцени та повірити в себе.
+              </p>
+              <p class="testimonial__autor">Дарій</p>
+              <p class="testimonial__instr">
+                БАРАБАНИ
+              </p>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <section id="vision" class="vision">
+      <div class="container">
+        <div class="vision__inner">
+          <h2 class="vision__title">Музика. Натхнення. Результат.</h2>
+
+          <p class="vision__text">
+            Ми впевнені, що якісне музичне навчання можливе лише тоді, коли є підтримка, мотивація та любов до справи.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="contacts" class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <h2 class="footer__title">Зв'яжись з нами</h2>
+
+        <div class="footer__content">
+          <a href="tel:+380685729183">+380685729183</a>
+          <a href="mailto:viktorjulia1204@gmail.com">Напиши на пошту</a>
+          <a href="https://t.me/viktor_frontend">Або на телеграм</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

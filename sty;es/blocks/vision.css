@@ -1,0 +1,20 @@
+.vision__inner {
+  background-image: url(../../images/Shapes\ \(1\).png);
+  padding-block: 100px;
+  background-size: cover;
+}
+
+.vision__title {
+  margin-bottom: 24px;
+}
+
+.vision__text {
+  max-width: 755px;
+  font-family: var(--font-opensans);
+  color: var(--color-lightgrey);
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+

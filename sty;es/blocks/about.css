@@ -1,0 +1,19 @@
+.about {
+  padding-block: 56px;
+}
+
+.about__title {
+  color: var(--color-darkgrey);
+  font-family: var(--font-poppins);
+  font-size: 32px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.about__text {
+  color: var(--color-lightgrey);
+  font-family: var(--font-opensans);
+  max-width: 755px;
+  text-align: center;
+  margin: 0 auto;
+}

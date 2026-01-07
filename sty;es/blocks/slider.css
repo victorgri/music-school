@@ -1,0 +1,17 @@
+.swiper-wrapper:first-child {
+  background-image: url(../../images/hero/guitar.jpg);
+  background-position: center;
+}
+.slide-2{
+  background-image: url(../../images/hero/drums.jpg);
+  background-position: center;
+}
+
+.slide-3 {
+  background-image: url(../../images/hero/vocal.jpg);
+  background-position: center;
+}
+
+.swiper-slide {
+  border-radius: 8px;
+}

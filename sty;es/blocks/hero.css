@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  background: var(--color-white);
+  border-radius: 16px;
+}
+
+.hero__inner {
+  padding: 140px 0 65px;
+  max-width: 490px;
+}
+
+.hero__title {
+  color: var(--color-darkgrey);
+  font-family: var(--font-poppins);
+  font-size: 64px;
+  letter-spacing: -2px;
+  margin-bottom: 32px;
+}
+
+.hero__subtitle {
+  color: var(--color-lightgrey);
+  font-family: var(--font-opensans);
+  font-size: 18px;
+  line-height: 150%;
+  padding-bottom: 83px;
+}
+

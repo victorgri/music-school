@@ -1,0 +1,79 @@
+@import url(blocks/hero.css);
+@import url(blocks/slider.css);
+@import url(blocks/about.css);
+@import url(blocks/exp.css);
+@import url(blocks/features.css);
+@import url(blocks/testimonials.css);
+@import url(blocks/vision.css);
+@import url(blocks/footer.css);
+@import url(blocks/header.css);
+:root {
+  --black-bg: #2C2C2C;
+  --blue-bg: #2060F6;
+  --bg-section: #f2f6fa;
+  --font-poppins: "Poppins", sans-serif;
+  --font-opensans: "Open Sans", sans-serif;
+  --color-white: #FFFFFF;
+  --color-darkgrey: #253757;
+  --color-lightgrey: #6C788B;
+      --swiper-theme-color:#2060F6 !important;
+}
+
+body {
+  background: var(--bg-section);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+    color: var(--color-darkgrey);
+  font-family: var(--font-poppins);
+  font-size: 32px;
+  line-height: 150%;
+  text-align: center;
+}
+
+button {
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button {
+  background: var(--blue-bg);
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 14px 90px;
+  font-family: var(--font-poppins);
+  border-radius: 8px;
+}
+
+.button:hover {
+  opacity: .7;
+}
+
+.container {
+  max-width: 1146px;
+  margin: 0 auto;
+}
+
+.swiper {
+  max-width: 46%;
+  max-height: 690px;
+}
+
