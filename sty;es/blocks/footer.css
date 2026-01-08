@@ -33,6 +33,15 @@
   left: 0;
 }
 
+@media (max-width: 1024px) {
+  .footer {
+    padding: 50px 0;
+  }
+  .footer__content {
+    flex-direction: column;
+  }
+  
+}
 @keyframes scalean {
     0% {
     transform: scale(1);

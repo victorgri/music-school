@@ -79,3 +79,21 @@
   text-align: center;
   align-self: flex-start;
 }
+
+@media (max-width: 1024px) {
+  .features__inner {
+    flex-direction: column;
+  }
+  .features__desc {
+    max-width: 100%;
+  }
+
+  .features__desc-text {
+    text-align: center;
+  }
+
+  .features__cards{
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -40,3 +40,30 @@
   font-family: var(--font-opensans);
   font-size: 14px;
 }
+
+.swiper-exp{
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .swiper-exp {
+    display: block;
+  }
+  .exp__items {
+    display: none;
+  }
+
+  .exp .swiper-wrapper:first-child {
+    background-image: none;
+  }
+
+  .exp__item-text {
+    text-align: center;
+  }
+
+  .swiper-pagination-exp {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Музична анишкола</title>
+  <title>Музична антишкола</title>
   <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,17 +24,28 @@
     <div class="container">
       <div class="header__inner">
         <img src="images/logo.svg" alt="logo" class="header__logo">
-        <div class="header__menu">
+
+        <button class="burger" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="header__menu">
           <a href="#about" class="header__item">про нас</a>
           <a href="#exp" class="header__item">наші напрямки</a>
           <a href="#services" class="header__item">сервіси</a>
           <a href="#testimonials" class="header__item">відгуки</a>
           <a href="#vision" class="header__item">бачення</a>
           <a href="#contacts" class="header__item">контакти</a>
-        </div>
+        </nav>
       </div>
     </div>
   </header>
+
+  <div class="overlay"></div>
+
+
   <main>
     <section class="hero">
       <div class="container">
@@ -111,6 +122,42 @@
                 практиці.</p>
             </div>
           </div>
+
+          <div class="swiper-exp">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="exp__item">
+                  <img src="images/band.jpg" alt="item" class="exp__img">
+                  <h3 class="exp__item-title">Інструменти</h3>
+                  <p class="exp__item-text">Навчання грі на гітарі, фортепіано та ударних із урахуванням стилю та цілей
+                    учня.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="exp__item">
+                  <img src="images/sing.jpg" alt="item" class="exp__img">
+                  <h3 class="exp__item-title">Вокал</h3>
+                  <p class="exp__item-text">Індивідуальні та групові заняття з вокалу для будь-якого рівня — від
+                    постановки
+                    голосу до роботи з мікрофоном і сценою.</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="exp__item">
+                  <img src="images/notes.jpg" alt="item" class="exp__img">
+                  <h3 class="exp__item-title">Музична теорія та практика</h3>
+                  <p class="exp__item-text">Розвиток слуху, ритму, розуміння музики та вміння застосовувати знання на
+                    практиці.</p>
+                </div>
+              </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination-exp"></div>
+
+          </div>
         </div>
       </div>
     </section>
@@ -181,7 +228,7 @@
             <div class="testimonial__card">
               <img src="images/testimonials/yulia.jpg" alt="" class="testimonial__photo">
               <p class="testimonial__text">Я ніколи не думала, що зможу грати улюблені пісні вже через кілька місяців.
-                </p>
+              </p>
               <p class="testimonial__autor">Юля</p>
               <p class="testimonial__instr">
                 БАРАБАНИ
@@ -189,7 +236,7 @@
             </div>
 
             <div class="testimonial__card">
-              <img src="images/testimonials/julia.jpg" alt="" class="testimonial__photo">
+              <img src="images/testimonials/Makar.png" alt="" class="testimonial__photo">
               <p class="testimonial__text">Навчання дуже подобається. Граю те, що люблю і це великий плюс</p>
               <p class="testimonial__autor">Макар</p>
               <p class="testimonial__instr">
@@ -199,8 +246,8 @@
 
 
             <div class="testimonial__card">
-              <img src="images/testimonials/julia.jpg" alt="" class="testimonial__photo">
-              <p class="testimonial__text">Заняття з вокалу допомогли мені позбутися страху сцени та повірити в себе.
+              <img src="images/testimonials/darik.jpg" alt="" class="testimonial__photo">
+              <p class="testimonial__text">Завжди мріяв грати на барабанах. Тут я знайшов те, що шукав.
               </p>
               <p class="testimonial__autor">Дарій</p>
               <p class="testimonial__instr">
@@ -208,6 +255,49 @@
               </p>
             </div>
 
+          </div>
+
+          <div class="swiper-testimonials">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="testimonial__card">
+                  <img src="images/testimonials/yulia.jpg" alt="" class="testimonial__photo">
+                  <p class="testimonial__text">Я ніколи не думала, що зможу грати улюблені пісні вже через кілька
+                    місяців.
+                  </p>
+                  <p class="testimonial__autor">Юля</p>
+                  <p class="testimonial__instr">
+                    БАРАБАНИ
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial__card">
+                  <img src="images/testimonials/Makar.png" alt="" class="testimonial__photo">
+                  <p class="testimonial__text">Навчання дуже подобається. Граю те, що люблю і це великий плюс</p>
+                  <p class="testimonial__autor">Макар</p>
+                  <p class="testimonial__instr">
+                    ГІТАРА
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial__card">
+                  <img src="images/testimonials/darik.jpg" alt="" class="testimonial__photo">
+                  <p class="testimonial__text">Завжди мріяв грати на барабанах. Тут я знайшов те, що шукав.
+                  </p>
+                  <p class="testimonial__autor">Дарій</p>
+                  <p class="testimonial__instr">
+                    БАРАБАНИ
+                  </p>
+                </div>
+              </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination-testimonials" style="display: flex; justify-content: center; padding-top: 20px;"></div>
           </div>
         </div>
     </section>

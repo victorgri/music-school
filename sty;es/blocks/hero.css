@@ -25,3 +25,29 @@
   padding-bottom: 83px;
 }
 
+
+@media(max-width: 1024px) {
+  .hero {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .hero__inner{
+    padding: 50px 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    text-align: center;
+    line-height: 100%;
+  }
+
+  .hero__subtitle  {
+    font-size: 14px;
+    padding-bottom: 24px;
+  }
+}

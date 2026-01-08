@@ -52,3 +52,21 @@
   font-size: 13px;
   font-weight: 700;
 } 
+
+.swiper-testimonials {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .testimonials__cards {
+    display: none;
+  }
+
+    .testimonials .swiper-wrapper:first-child {
+    background-image: none;
+  }
+
+  .swiper-testimonials {
+    display: block;
+  }
+}
