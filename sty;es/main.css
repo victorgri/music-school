@@ -22,9 +22,11 @@
 html,
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
+  
   background: var(--bg-section);
 }
 
@@ -88,7 +90,7 @@ button {
     max-width: 100%;
     width: 100%;
     overflow: hidden;
-    height: 500px;
+    height: 617px;
   }
   .swiper-button-prev,
   .swiper-button-next {

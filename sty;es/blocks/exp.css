@@ -58,12 +58,19 @@
   }
 
   .exp__item-text {
+    max-width: 300px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .swiper-pagination-exp {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+  }
+
+  .exp__img {
+    width: 340px;
+    margin: 0 auto 10px;
   }
 }

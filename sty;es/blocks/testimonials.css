@@ -69,4 +69,9 @@
   .swiper-testimonials {
     display: block;
   }
+
+  .testimonial__card {
+    max-width: 330px;
+    margin: 0 auto;
+  }
 }

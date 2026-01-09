@@ -1,7 +1,13 @@
+.vision {
+background-image: url(../../images/Shapes\ \(1\).png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
 .vision__inner {
-  background-image: url(../../images/Shapes\ \(1\).png);
+  
   padding-block: 100px;
-  background-size: cover;
+  
 }
 
 .vision__title {
@@ -15,6 +21,14 @@
   font-size: 24px;
   text-align: center;
   margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .vision {
+    background-size: contain;
+    background-position: 50%;
+  }
+  
 }
 
 

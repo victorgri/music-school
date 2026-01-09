@@ -1,15 +1,18 @@
-.swiper-wrapper:first-child {
-  background-image: url(../../images/hero/guitar.jpg);
+.slide-1 {
+  background-image: url(../../images/hero/guitar1.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 .slide-2{
-  background-image: url(../../images/hero/drums.jpg);
+  background-image: url(../../images/hero/drums1.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .slide-3 {
-  background-image: url(../../images/hero/vocal.jpg);
+  background-image: url(../../images/hero/cvocal.jpg);
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .swiper-slide {
